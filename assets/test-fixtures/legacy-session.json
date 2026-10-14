@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "game_id": "fogharbor-lighthouse-key",
+  "game_hash": "a56496d12fa2e479d38a0d5571686b04187df6b8fd0df390bf6687d44bac1f53",
+  "branch_id": "main",
+  "created_at": "2026-10-14T08:54:48+00:00",
+  "revision": 1,
+  "parent": null,
+  "initial_state": {
+    "branch_id": "main",
+    "turn": 0,
+    "time": {
+      "tick": 0,
+      "label": "暮潮"
+    },
+    "location_id": "L1",
+    "player": {
+      "name": "由玩家决定",
+      "identity": "雾港临时信使，独立新角色",
+      "stats": {
+        "hp": 10,
+        "currency": 8
+      },
+      "inventory": {
+        "交班信": 1,
+        "绳索": 1,
+        "修补材料": 1
+      },
+      "flags": {
+        "bridge_noise": false,
+        "key_returned": false,
+        "wheel_inspected": false,
+        "safe_signal_arranged": false
+      },
+      "relations": {
+        "N1": {
+          "trust": 0
+        },
+        "N2": {
+          "trust": 0
+        }
+      }
+    },
+    "npc_status": {
+      "N1": "alive",
+      "N2": "alive"
+    },
+    "quests": {
+      "Q1": "open",
+      "Q2": "open"
+    },
+    "facts_known": [
+      "C1",
+      "C2",
+      "C4"
+    ],
+    "extensions": {}
+  },
+  "state": {
+    "branch_id": "main",
+    "turn": 1,
+    "time": {
+      "tick": 0,
+      "label": "暮潮"
+    },
+    "location_id": "L1",
+    "player": {
+      "name": "由玩家决定",
+      "identity": "雾港临时信使，独立新角色",
+      "stats": {
+        "hp": 10,
+        "currency": 10
+      },
+      "inventory": {
+        "交班信": 1,
+        "绳索": 1,
+        "修补材料": 1
+      },
+      "flags": {
+        "bridge_noise": false,
+        "key_returned": false,
+        "wheel_inspected": false,
+        "safe_signal_arranged": false,
+        "legacy_promise": true
+      },
+      "relations": {
+        "N1": {
+          "trust": 0
+        },
+        "N2": {
+          "trust": 0
+        }
+      }
+    },
+    "npc_status": {
+      "N1": "alive",
+      "N2": "alive"
+    },
+    "quests": {
+      "Q1": "open",
+      "Q2": "open"
+    },
+    "facts_known": [
+      "C1",
+      "C2",
+      "C4"
+    ],
+    "extensions": {}
+  },
+  "events": [
+    {
+      "id": "legacy-1",
+      "created_at": "2026-10-14T08:54:48+00:00",
+      "request": {
+        "type": "action",
+        "id": "legacy-1",
+        "expected_revision": 0,
+        "summary": "Legacy synthetic reward and promise flag",
+        "operations": [
+          {
+            "op": "resource",
+            "name": "currency",
+            "delta": 2
+          },
+          {
+            "op": "flag",
+            "name": "legacy_promise",
+            "value": true
+          }
+        ]
+      },
+      "rolls": [],
+      "before_hash": "4861d9c0b76f17775b9a4e7c19938996d065871a8e9365a84732a2b2f2ef9296",
+      "after_hash": "de5e07e6ac1c54ec78c1df63b3d0edf2f411d1c1c866d1222c6fb9a865aa66a1",
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "event_hash": "656abdffb46c744cdf26193c92f11d8954afd862fbafd15a88e6907166783528"
+    }
+  ]
+}

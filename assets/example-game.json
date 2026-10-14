@@ -1,0 +1,462 @@
+{
+  "schema_version": "1.0",
+  "meta": {
+    "id": "fogharbor-lighthouse-key",
+    "title": "雾港：失踪的灯塔钥匙",
+    "work": "雾港原创短篇",
+    "medium": "original",
+    "continuity": "原创独立世界 v1；暮潮至次日晨班",
+    "cutoff": "原创短篇全部设计；tick 0 暮潮，1 雾压港，2 午夜退潮，3 次日晨班",
+    "cutoff_tick": 3,
+    "language": "zh-CN",
+    "version": "1.0.1",
+    "created_at": "2026-10-14",
+    "research_completed_at": "2026-10-14",
+    "status": "draft"
+  },
+  "sources": [],
+  "claims": [
+    {
+      "id": "C1",
+      "text": "雾港以旋转灯塔引导晚归船只，须不晚于晨班开始时（tick 3，含该时点）确认灯塔可安全运转。",
+      "classification": "design",
+      "core": true,
+      "verification": "not_applicable",
+      "continuity": "原创独立世界 v1；暮潮至次日晨班",
+      "available_from": 0,
+      "source_refs": [],
+      "conflicts": []
+    },
+    {
+      "id": "C2",
+      "text": "临时信使带着一封灯塔交班信来到旧渡口，守灯人发现交班钥匙失踪。",
+      "classification": "design",
+      "core": true,
+      "verification": "not_applicable",
+      "continuity": "原创独立世界 v1；暮潮至次日晨班",
+      "available_from": 0,
+      "source_refs": [],
+      "conflicts": []
+    },
+    {
+      "id": "C3",
+      "text": "守灯人沈岚负责灯塔交班，修船匠阿槐修过灯塔传动装置。",
+      "classification": "design",
+      "core": true,
+      "verification": "not_applicable",
+      "continuity": "原创独立世界 v1；暮潮至次日晨班",
+      "available_from": 0,
+      "source_refs": [],
+      "conflicts": []
+    },
+    {
+      "id": "C4",
+      "text": "旧渡口的封锁栈桥通往灯塔前院，另一条较长的安全路经过修船棚。",
+      "classification": "design",
+      "core": true,
+      "verification": "not_applicable",
+      "continuity": "原创独立世界 v1；暮潮至次日晨班",
+      "available_from": 0,
+      "source_refs": [],
+      "conflicts": []
+    },
+    {
+      "id": "C5",
+      "text": "阿槐把灯塔钥匙藏在修船棚工具箱夹层，为阻止有裂纹的传动轮启动；他害怕失去工作而没有公开报告。",
+      "classification": "design",
+      "core": true,
+      "verification": "not_applicable",
+      "continuity": "原创独立世界 v1；暮潮至次日晨班",
+      "available_from": 0,
+      "source_refs": [],
+      "conflicts": []
+    },
+    {
+      "id": "C6",
+      "text": "午夜退潮后，灯塔基础边露出可安全检查传动轮的检修口；提前到达只能看到淹没入口的海水。",
+      "classification": "design",
+      "core": false,
+      "verification": "not_applicable",
+      "continuity": "原创独立世界 v1；暮潮至次日晨班",
+      "available_from": 2,
+      "source_refs": [],
+      "conflicts": []
+    },
+    {
+      "id": "C7",
+      "text": "非例行的调查、赶路或维修可推进一阶段时间；观察现状、查看存档及场外澄清不自动推进。",
+      "classification": "design",
+      "core": true,
+      "verification": "not_applicable",
+      "continuity": "原创独立世界 v1；暮潮至次日晨班",
+      "available_from": 0,
+      "source_refs": [],
+      "conflicts": []
+    },
+    {
+      "id": "C8",
+      "text": "冒险穿越栈桥使用 d20 风险检定，12 及以上安全通过；失败受 2 点伤害并留下响动，但抵达可继续调查的灯塔前院。带绳索可在检定前选择消耗 1 次绳索用途获得 +2。",
+      "classification": "design",
+      "core": true,
+      "verification": "not_applicable",
+      "continuity": "原创独立世界 v1；暮潮至次日晨班",
+      "available_from": 0,
+      "source_refs": [],
+      "conflicts": []
+    }
+  ],
+  "world": {
+    "premise": "你是一名初来雾港的临时信使。失踪的灯塔钥匙让晨班交接停摆，船上的人等不起漫长调查。查访、寻找物证、说服知情者或自行安排安全信号，都可能改变结局。",
+    "rules": [
+      {
+        "id": "R1",
+        "text": "灯塔必须确认安全后才能启动；找到钥匙与安全开灯是两个目标。",
+        "claim_ids": [
+          "C1"
+        ]
+      },
+      {
+        "id": "R2",
+        "text": "本故事没有超自然能力，信息来自观察、交谈和物证。",
+        "claim_ids": []
+      },
+      {
+        "id": "R3",
+        "text": "开篇按暮潮、雾压港、午夜退潮、晨班四阶段推进，停下来讨论规则不消耗剧情时间；晨班之后可以明确命名新阶段，以本局原创剧情继续。",
+        "claim_ids": [
+          "C7"
+        ]
+      }
+    ],
+    "locations": [
+      {
+        "id": "L1",
+        "name": "旧渡口",
+        "description": "湿木板上散着渔网，沈岚提着一盏罩灯等待交班信。封锁栈桥在海风里吱呀作响，安全石路转向修船棚。",
+        "keys": [
+          "旧渡口",
+          "渡口",
+          "栈桥"
+        ],
+        "claim_ids": [
+          "C2",
+          "C4"
+        ],
+        "available_from": 0,
+        "visibility": "public"
+      },
+      {
+        "id": "L2",
+        "name": "修船棚",
+        "description": "空气带着松脂味。阿槐正在清理铁屑，墙上挂着绳索与维修记录，地上有来往灯塔的泥鞋印。",
+        "keys": [
+          "修船棚",
+          "船棚",
+          "维修记录"
+        ],
+        "claim_ids": [
+          "C3",
+          "C4"
+        ],
+        "available_from": 0,
+        "visibility": "public"
+      },
+      {
+        "id": "L3",
+        "name": "灯塔前院",
+        "description": "白塔立在低矮石墙后，锁门旁刻着交班日期。塔基传来不均匀的金属撞击声，海水封着低处的通道。",
+        "keys": [
+          "灯塔",
+          "前院",
+          "塔基"
+        ],
+        "claim_ids": [
+          "C1",
+          "C4"
+        ],
+        "available_from": 0,
+        "visibility": "public"
+      }
+    ],
+    "factions": [
+      {
+        "id": "F1",
+        "name": "雾港守灯班",
+        "description": "负责航道照明的小队，珍惜人命和手艺，缺少备用零件。愿意听取可验证的风险报告。",
+        "keys": [
+          "守灯班",
+          "守灯人"
+        ],
+        "claim_ids": [
+          "C1",
+          "C3"
+        ],
+        "available_from": 0,
+        "visibility": "public"
+      }
+    ],
+    "lore": [
+      {
+        "id": "W1",
+        "name": "交班规矩",
+        "content": "钥匙是交班凭证，找到后先交给守灯人；任何人都可提出安全疑虑并请求检查。沈岚担心延误，却愿意依据物证改变安排。",
+        "keys": [
+          "交班",
+          "钥匙",
+          "规矩"
+        ],
+        "claim_ids": [
+          "C1",
+          "C2"
+        ],
+        "available_from": 0,
+        "visibility": "public",
+        "known_by": [
+          "N1",
+          "N2"
+        ]
+      },
+      {
+        "id": "W2",
+        "name": "未公开的维修隐情",
+        "content": "阿槐将钥匙藏在自己工具箱夹层。传动轮的裂纹会在启动后扩大，他试图用拖延迫使检查，又害怕被问责。尊重他的安全顾虑、出示异常声响或维修记录，可以促使他交钥匙并承认。强搜可能找到钥匙，但损害信任。沈岚起初并不知道。",
+        "keys": [
+          "工具箱",
+          "传动轮",
+          "维修隐情"
+        ],
+        "claim_ids": [
+          "C5"
+        ],
+        "available_from": 0,
+        "visibility": "gm",
+        "known_by": [
+          "N2"
+        ]
+      },
+      {
+        "id": "W3",
+        "name": "退潮后的检修机会",
+        "content": "从 tick 2 起，塔基检修口露出水面。观察可确认裂纹，花一阶段并消耗 1 个修补材料可临时固定传动轮；在 tick 2 开始则于 tick 3 完成，可当场安排安全开灯，不额外消耗阶段。也可请求守灯班用岸边手灯引导船只，牺牲效率换取安全。",
+        "keys": [
+          "退潮",
+          "检修口",
+          "裂纹"
+        ],
+        "claim_ids": [
+          "C6"
+        ],
+        "available_from": 2,
+        "visibility": "public",
+        "known_by": []
+      }
+    ],
+    "npcs": [
+      {
+        "id": "N1",
+        "name": "沈岚",
+        "description": "寡言的守灯人，灰外套袖口磨得发白。她熟悉港口规矩，急于完成交班。",
+        "goals": [
+          "让晚归船只安全入港",
+          "弄清钥匙去向并安排晨班"
+        ],
+        "behavior": [
+          "遇到空泛保证时要求具体证据",
+          "有可靠安全风险时愿意推迟开灯",
+          "玩家兑现承诺后提高信任"
+        ],
+        "speech": "句子简短，先问事情和时间；紧张时也不替别人作决定。",
+        "knowledge": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C7"
+        ],
+        "claim_ids": [
+          "C3"
+        ],
+        "available_from": 0,
+        "status": "alive"
+      },
+      {
+        "id": "N2",
+        "name": "阿槐",
+        "description": "修船匠，指缝留着铁屑，回答问题前常先擦手。他修过灯塔装置，也关心出海的人。",
+        "goals": [
+          "保证维修工作的安全",
+          "保住手艺和同事的信任"
+        ],
+        "behavior": [
+          "被无证据指控时变得防备但不会自动攻击",
+          "听见具体技术问题会认真解释",
+          "有人愿意承担核查责任时更愿意合作"
+        ],
+        "speech": "说话缓慢，习惯用修船比喻；不凭空知道玩家在别处做过什么。",
+        "knowledge": [
+          "C1",
+          "C3",
+          "C4",
+          "C5",
+          "C7"
+        ],
+        "claim_ids": [
+          "C3"
+        ],
+        "available_from": 0,
+        "status": "alive"
+      }
+    ]
+  },
+  "gameplay": {
+    "gm_rules": [
+      "主持环境、时间与 NPC；玩家自己决定对白、思想和行动，不指定恋爱或同伴。",
+      "始终接受菜单外的自由行动。无风险的合理观察直接获得线索，检定前说清可感知风险。",
+      "gm 私密 lore 只在玩家找到物证或通过交谈获知后揭露；NPC 仅使用自己的 knowledge 或 known_by 事实。",
+      "资料只使用 available_from 不高于 min(当前 tick, 固定 cutoff_tick) 的内容；tick 可通过 advance 超过 3，后续发展作为本局原创记录，不扩大资料上限。",
+      "判定由实际可用执行器完成，执行器不足时声明主持裁定并用文本存档；不伪称已运行复杂物理或完整战斗系统。",
+      "每次有状态变化，记录原因、旧值和新值；任务完成以实际目标为准，不要求固定解法。",
+      "本局承诺、误解和关键经历用 remember 记录知情范围；先核对工具提交后的状态，再叙述已经发生的后果。"
+    ],
+    "loops": [
+      "探索：观察异常→交叉检查物证→打开调查路径",
+      "社交：提出诉求或证据→NPC 按目标回应→形成承诺与关系后果",
+      "风险：声明行动→说明风险与工具选项→d20 判定→记录伤害或新情况"
+    ],
+    "failure_policy": "失败改变时间、健康或信任，同时保留查案路径。栈桥失败也到达前院；谈判失败可继续找维修记录、提出共同检查或另用岸边信号。不能用一次失败封死全部目标。",
+    "mechanics": {
+      "dice": "1d20",
+      "resources": {
+        "hp": {
+          "min": 0,
+          "max": 10
+        },
+        "currency": {
+          "min": 0,
+          "max": 1000
+        }
+      },
+      "checks": {
+        "bridge": {
+          "description": "不使用绳索、hp 至少为 2 的标准穿越；绳索加成或低 hp 的净伤害需明示主持裁定，不能套用这个固定方案。",
+          "dice": "1d20",
+          "target": 12,
+          "modifier": 0,
+          "preconditions": {"stats_min": {"hp": 2}},
+          "consequences": {
+            "success": [[{"op": "move", "location_id": "L3"}]],
+            "failure": [[{"op": "resource", "name": "hp", "delta": -2}, {"op": "move", "location_id": "L3"}, {"op": "flag", "name": "bridge_noise", "value": true}]]
+          }
+        }
+      },
+      "risk_check": {
+        "name": "穿越封锁栈桥",
+        "claim_id": "C8",
+        "target": 12,
+        "success": "抵达灯塔前院，无伤害。",
+        "failure": "hp 减少 2，抵达灯塔前院，巡查者听见响动。",
+        "optional_rope_bonus": 2
+      }
+    },
+    "opening": {
+      "scene": "暮潮。你带着尚未递交的交班信来到旧渡口。沈岚摸了摸空着的钥匙袋，望向熄着的灯塔：‘钥匙不见了。晨班交接时得有个办法。’修船棚还亮着灯。身旁封锁栈桥只差几步，却在风中摇晃；走安全石路也能到前院，只是更费时间。",
+      "choices": [
+        "向沈岚询问最后一次交班与钥匙去向。",
+        "沿安全石路去修船棚，与阿槐交谈并查看公开维修记录。",
+        "尝试穿越栈桥：检定前确认风险，可用绳索增加成功机会。",
+        "自由行动：描述你自己的调查或安排。"
+      ]
+    },
+    "quests": [
+      {
+        "id": "Q1",
+        "title": "找回交班钥匙",
+        "objective": "确认钥匙去向并取得钥匙，或让保管者当场交还沈岚。",
+        "status": "open"
+      },
+      {
+        "id": "Q2",
+        "title": "让航道安全度过晨班",
+        "objective": "不晚于 tick 3（含该时点）确认灯塔安全并安排开灯，或达成岸边手灯引导的替代方案。",
+        "status": "open"
+      }
+    ],
+    "endings": [
+      "完整交班：取回钥匙，确认并修补风险，船只安全进港；两名 NPC 对玩家建立信任。",
+      "谨慎的替代：揭露风险但来不及维修，守灯班用岸边手灯接应；港口效率下降，后续可继续修复灯塔。",
+      "代价与继续：错过安排后船只暂时停在外海，玩家失去部分报酬，却仍可追查责任、修复关系和准备下一班。"
+    ]
+  },
+  "state": {
+    "branch_id": "main",
+    "turn": 0,
+    "time": {
+      "tick": 0,
+      "label": "暮潮"
+    },
+    "location_id": "L1",
+    "player": {
+      "name": "由玩家决定",
+      "identity": "雾港临时信使，独立新角色",
+      "stats": {
+        "hp": 10,
+        "currency": 8
+      },
+      "inventory": {
+        "交班信": 1,
+        "绳索": 1,
+        "修补材料": 1
+      },
+      "flags": {
+        "bridge_noise": false,
+        "key_returned": false,
+        "wheel_inspected": false,
+        "safe_signal_arranged": false
+      },
+      "relations": {
+        "N1": {
+          "trust": 0
+        },
+        "N2": {
+          "trust": 0
+        }
+      }
+    },
+    "npc_status": {
+      "N1": "alive",
+      "N2": "alive"
+    },
+    "quests": {
+      "Q1": "open",
+      "Q2": "open"
+    },
+    "facts_known": [
+      "C1",
+      "C2",
+      "C4"
+    ],
+    "extensions": {"memories": []}
+  },
+  "extensions": {
+    "capabilities": {
+      "supported_play": [
+        "探索",
+        "社交",
+        "单次 d20 风险检定",
+        "文本存档"
+      ],
+      "complex_rules": "未实现完整战斗或物理模拟；由主持根据明确风险裁定并记录。"
+    },
+    "time_axis": {
+      "0": "暮潮",
+      "1": "雾压港",
+      "2": "午夜退潮",
+      "3": "次日晨班"
+    },
+    "quest_resolution": {
+      "Q1": "实际取得或见证交还钥匙后完成。",
+      "Q2": "在 tick <= 3 时确认安全照明或落实替代信号后完成；仅取钥匙不能完成。"
+    },
+    "design_note": "完整原创演示，无外部作品来源。行为和结局需实际试玩后才能宣称稳定。"
+  }
+}

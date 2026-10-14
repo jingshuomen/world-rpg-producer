@@ -1,0 +1,26 @@
+{
+  "name": "world-rpg-producer",
+  "version": "1.0.1",
+  "created_at": "2026-10-14",
+  "language": "zh-CN",
+  "schema_version": "1.0",
+  "compatibility": "Schema/session 1.0 retained; existing saves remain usable with their unchanged original game.json. Changed game data requires a new game or explicit migration; no automatic save rewrite.",
+  "runtime_features": ["actor-filtered memories and recent event recall", "optional declared check consequences", "revision-named reusable snapshots"],
+  "supported_media": ["novel", "anime", "film", "tv", "mixed", "original"],
+  "outputs": ["ai-game-skill", "chat-starter", "CCv2-JSON", "CCv3-JSON", "PNG-chara-ccv3", "CHARX", "SillyTavern-WorldInfo"],
+  "required_runtime": "Python 3.10+ for collection/export/state tools; host AI performs semantic research/design",
+  "research": {
+    "preferred": "Host search and page/document/visual tools",
+    "fallback_discovery": "Wikipedia zh/en MediaWiki API; limited to encyclopedia candidates",
+    "collection": "HTTP(S) text, txt/md/srt/vtt/epub/docx; PDF text only if pypdf already available",
+    "verification": "AI must read sources and assess meaning, continuity and independence; scripts enforce structural gates"
+  },
+  "optional_dependencies": ["pypdf for local PDF text extraction"],
+  "mandatory_api_keys": [],
+  "runtime_limitations": [
+    "Pure chat requires manual save and external dice or explicitly labelled narrative rulings",
+    "SillyTavern exports do not install a model or an automatic MVU integration",
+    "No true secrecy isolation inside a shared model context or shared files",
+    "Format validation does not prove every client import or long-term gameplay quality"
+  ]
+}

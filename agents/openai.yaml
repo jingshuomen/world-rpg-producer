@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨媒介世界 RPG 制作器"
+  short_description: "搜集核验小说与影视世界资料，制作可续玩的 AI 角色扮演游戏包"
+  default_prompt: "使用 $world-rpg-producer，根据我指定的作品版本和玩家身份收集核验资料，制作支持自由行动与存档的角色扮演游戏包。"
